@@ -4,7 +4,7 @@
 import PackageDescription
 
 let dependencies: [PackageDescription.Package.Dependency] = [
-  .package(url: "https://github.com/SwiftyTesseract/SwiftyTesseract.git", .upToNextMajor(from: "4.0.0")),
+  .package(url: "https://github.com/SwiftyTesseract/SwiftyTesseract.git", .exact("4.0.0")),
   .package(url: "https://github.com/alinradut/QKMRZParser.git", .upToNextMajor(from: "1.0.0")),
 ]
 
