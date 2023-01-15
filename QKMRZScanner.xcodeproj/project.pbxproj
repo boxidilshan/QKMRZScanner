@@ -19,7 +19,7 @@
 		12C0055522D5643F0086FDBC /* CIContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0055422D5643F0086FDBC /* CIContext.swift */; };
 		12E298AD22D52A6700A9AFBB /* LuminanceThresholdFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E298AC22D52A6700A9AFBB /* LuminanceThresholdFilter.swift */; };
 		14B9FE0E29719BEC0086DC2D /* QKMRZParser in Frameworks */ = {isa = PBXBuildFile; productRef = 14B9FE0D29719BEC0086DC2D /* QKMRZParser */; };
-		14B9FE142971A8630086DC2D /* SwiftyTesseract in Frameworks */ = {isa = PBXBuildFile; productRef = 14B9FE132971A8630086DC2D /* SwiftyTesseract */; };
+		14B9FEB629745EEF0086DC2D /* SwiftyTesseract in Frameworks */ = {isa = PBXBuildFile; productRef = 14B9FEB529745EEF0086DC2D /* SwiftyTesseract */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14B9FE142971A8630086DC2D /* SwiftyTesseract in Frameworks */,
+				14B9FEB629745EEF0086DC2D /* SwiftyTesseract in Frameworks */,
 				121B535F216FBC72000F7123 /* CoreImage.framework in Frameworks */,
 				14B9FE0E29719BEC0086DC2D /* QKMRZParser in Frameworks */,
 			);
@@ -151,7 +151,7 @@
 			name = QKMRZScanner;
 			packageProductDependencies = (
 				14B9FE0D29719BEC0086DC2D /* QKMRZParser */,
-				14B9FE132971A8630086DC2D /* SwiftyTesseract */,
+				14B9FEB529745EEF0086DC2D /* SwiftyTesseract */,
 			);
 			productName = QKMRZScanner;
 			productReference = 1277813E21653FB500070E1C /* QKMRZScanner.framework */;
@@ -183,7 +183,7 @@
 			mainGroup = 1277813421653FB500070E1C;
 			packageReferences = (
 				14B9FE0C29719BEC0086DC2D /* XCRemoteSwiftPackageReference "QKMRZParser" */,
-				14B9FE122971A8630086DC2D /* XCRemoteSwiftPackageReference "SwiftyTesseract" */,
+				14B9FEB429745EEF0086DC2D /* XCRemoteSwiftPackageReference "SwiftyTesseract" */,
 			);
 			productRefGroup = 1277813F21653FB500070E1C /* Products */;
 			projectDirPath = "";
@@ -437,12 +437,12 @@
 				version = 1.0.4;
 			};
 		};
-		14B9FE122971A8630086DC2D /* XCRemoteSwiftPackageReference "SwiftyTesseract" */ = {
+		14B9FEB429745EEF0086DC2D /* XCRemoteSwiftPackageReference "SwiftyTesseract" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SwiftyTesseract/SwiftyTesseract";
+			repositoryURL = "https://github.com/SwiftyTesseract/SwiftyTesseract.git";
 			requirement = {
 				kind = exactVersion;
-				version = 4.0.1;
+				version = 4.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -453,9 +453,9 @@
 			package = 14B9FE0C29719BEC0086DC2D /* XCRemoteSwiftPackageReference "QKMRZParser" */;
 			productName = QKMRZParser;
 		};
-		14B9FE132971A8630086DC2D /* SwiftyTesseract */ = {
+		14B9FEB529745EEF0086DC2D /* SwiftyTesseract */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 14B9FE122971A8630086DC2D /* XCRemoteSwiftPackageReference "SwiftyTesseract" */;
+			package = 14B9FEB429745EEF0086DC2D /* XCRemoteSwiftPackageReference "SwiftyTesseract" */;
 			productName = SwiftyTesseract;
 		};
 /* End XCSwiftPackageProductDependency section */

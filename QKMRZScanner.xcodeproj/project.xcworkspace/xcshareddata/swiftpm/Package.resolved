@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SwiftyTesseract/SwiftyTesseract",
       "state" : {
-        "revision" : "1393d15d0278673dd89f2ba21d3fb748f99e02ce",
-        "version" : "4.0.1"
+        "revision" : "1b4f0ef0c2ba08ae92254af730f2013af4ebdc4f",
+        "version" : "4.0.0"
       }
     }
   ],
